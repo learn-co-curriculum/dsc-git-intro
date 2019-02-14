@@ -1,53 +1,91 @@
+
 # Getting Started with Git
 
 ## Introduction 
 As you now know, git is a version control system. The Learn platfrom at Flatiron school has a deep integration with Git and GitHub. GitHub is an online hosting platform for that uses git. 
-Learn has a deep integration with Git and GitHub. We need to teach you just enough git to interact with GitHub like a real developer. It'll be easy, just watch the video below.
+Learn has a deep integration with Git and GitHub. We need to teach you just enough git to interact with GitHub like a real developer. While you can run python notebooks on the learn platform itself, you'll also want to be able to download material to your lcoal computer so you can work on it there.
 
 ## Objectives:
 
 You will be able to:
 
-* Fork a repository GitHub.
+* Fork a repository from GitHub to create your own local copy.
 * Use `git clone` to clone a repository to your local computer.
 * Use `git status` to see the status of your locally cloned git repository.
 * Use `git add .` to add your local changes to be committed.
 * Use `git commit -am "Commit Message"` to commit changes that have been added with a message.
 * Use `git push` to upload your local changes to GitHub.
 
-## `GitHub Fork`
+
+## Some terminology and concepts
+
+As you can see from the objectives above, we're going to dive in and use several git commands in this lesson. 
+
+The first that we'll use is `forking`, a concept from the github platform.
 
 Forking is the process of making a personal copy of the Learn lab on GitHub. It's basically how you tell Learn that you have started working on a lab.
 
 ![What's a Fork](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-1.png)
+  
+Afterwards, we'll then use `git clone` from a bash shell like terminal or git bash in order to copy the material from the web to our local computer.
 
-To fork, just click the <img src="https://dl.dropboxusercontent.com/s/1fy8e0132r4f0pv/2015-05-06%20at%2011.38%20AM.png" style="display: inline; height: 26px; vertical-align: bottom"> button on GitHub.
+From there, git will allow us to continue to track and incorporate changes that we make to our work. 
 
-![Fork on GitHub](https://curriculum-content.s3.amazonaws.com/web-development/enough-git-for-learn-co/Fork.png)
+`git status` allows us to see if we have made any changes.
 
-Then select your personal GitHub account as the location to fork to.
+If we have made changes that we would like to save to our version control history, we can then use `git add` to add the changed files to the version history and `git commit` to finalize the process. As a final process, we can then use `git push` to push our changes to the web so that we or collaborators can access them from anywhere. 
 
-![Fork to Your Account](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-1b.jpg)
+Now that you have a brief overview of what we're about to dive into, let's go through the process step by step.
+
+## Open up a Bash Shell and Create a Course Folder / Subfolder
+
+To use git, we're going back to the bash shell (mac: terminal, windows: git bash) once again!
+To start:
+
+* Create a folder on your computer for your course materials and navigate into it. (mkdir and cd) 
+* Then create a subfolder titled "Section1", "Bash_and_Git" (or whatever you find to be an appropriate title) and navigate into that.
+
+* Return to your web browser and navigate to the lesson you want to download.
+* Click the github icon
+
+<img src="Learn_Github_Logo.png">
+
+
+You'll be redirected to the associated github repository like this.  
+<img src="Github_Fork_Button.png">
+
+* **Click the fork button**, as shown above in order to create a copy to your personal account which you can edit and update.
+
+
+
+
+After a moment of this:
+<img src="Github_Forking_In_Progress.png" width=350>
+
+
+You'll be redirected to your new personal copy of the repository:
+<img src="Forked_Github_Page.png" width=700>
 
 ## `git clone`
 
-Cloning is the process of downloading a copy of the lab from your personal fork on GitHub to your computer.
+Now that you have your own copy (by forking), we're going to download a copy to your local computer using git clone.
 
-![What's a Clone](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-2.png)
+* Copy the url. 
+    * Mac: Press **cmd+L** to highlight the url bar and **cmd+c** to copy the url
+    * Windows: Press **Ctrl+L** to highlight the url bar and **Ctrl+c** to copy the url
 
-To clone, make sure you've first clicked on the SSH link (it starts with `git@github.com:` and not `https://github.com`, then click the  copy button next to the Clone URL to copy it to your clipboard (you can also copy it by selecting the text and copying it to your clibpoard as you would normally).
+* Return to your bash shell
 
-![The Clone URL](https://curriculum-content.s3.amazonaws.com/web-development/enough-git-for-learn-co/Clone.png)
+* Type: **git clone** and paste your repo url (**cmd + v** or **Ctrl+V**)
 
-Next, in your Command Line (or Shell, or Terminal), navigate to the parent directory where you would like to place this lab. A good place would be in your `Development` directory within your home directory `~`. You can change directory in your terminal by typing `cd ~/Development`.
+** Voila!  **
 
-To clone a lab, type `git clone <the clone URL you copied from GitHub>`
+The repository and all of its contents will be downloaded locally to your computer!
 
-It would look something like this: `git clone git@github.com:aviflombaum/first-lab-000.git`
+You should be able to see the new folder by listing the files in the current directory with `ls`.  
+You can then navigate into the git directory with `cd directory_name`.
 
-You should see `git@github.com`, your username, like `aviflombaum`, and the lab you want to work on, like `first-lab-000`.
-
-Type your clone command in your terminal and hit enter and you should see git download the lab to your computer.
+Now that you have a local copy, we can further investigate some more git commands for version control. **Note that for these to work you must be in the git folder (the one we just cloned above). Make sure to navigate into the folder using the `cd` command.**
 
 ## `git status`
 
@@ -66,7 +104,6 @@ A commit is a permanent moment in time in your git history. A commit creates a n
 ## `git push`
 
 Pushing is the process of taking your local code and commits and syncing them, or uploading them, to GitHub. You're updating the GitHub remote (remotes are just fancy names for copies of the repository), generally your fork, represented by a remote named `origin`, by pushing your code to the remote. The git command to do this is simply `git push`. When you `git push` from within a git repository, it will take all the commits that you have locally and push them to the online remote.
-
 
 
 ## Additional Resources
@@ -91,4 +128,3 @@ Pushing is the process of taking your local code and commits and syncing them, o
 ## Summary
 
 In this lesson, we took an introductory look at git and github. First, we saw how to fork and clone repositories from learn ot your local machine. From there, we then further discussed how to add changes to git, commit them, and push them online.
- 
