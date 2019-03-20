@@ -2,10 +2,10 @@
 # Getting Started with Git
 
 ## Introduction 
-As you now know, git is a version control system. The Learn platfrom at Flatiron school has a deep integration with Git and GitHub. GitHub is an online hosting platform for that uses git. 
-Learn has a deep integration with Git and GitHub. We need to teach you just enough git to interact with GitHub like a real developer. While you can run python notebooks on the learn platform itself, you'll also want to be able to download material to your lcoal computer so you can work on it there.
+As you now know, git is a version control system. The Learn platform at Flatiron school has a deep integration with Git and GitHub. GitHub is an online hosting platform that uses git. 
+Learn has a deep integration with Git and GitHub. We need to teach you just enough git to interact with GitHub like a real developer. While you can run python notebooks on the Learn platform itself, you'll also want to be able to download material to your local computer so you can work on it there.
 
-## Objectives:
+## Objectives
 
 You will be able to:
 
@@ -27,7 +27,7 @@ Forking is the process of making a personal copy of the Learn lab on GitHub. It'
 
 ![What's a Fork](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-1.png)
   
-Afterwards, we'll then use `git clone` from a bash shell like terminal or git bash in order to copy the material from the web to our local computer.
+Afterward, we'll then use `git clone` from a bash shell like terminal or git bash in order to copy the material from the web to our local computer.
 
 From there, git will allow us to continue to track and incorporate changes that we make to our work. 
 
@@ -48,29 +48,28 @@ To start:
 * Return to your web browser and navigate to the lesson you want to download.
 * Click the github icon
 
-<img src="Learn_Github_Logo.png">
+<img src="images/learn_github_logo.png">
 
 
 You'll be redirected to the associated github repository like this.  
-<img src="Github_Fork_Button.png">
+<img src="images/github_fork_button.png">
 
 * **Click the fork button**, as shown above in order to create a copy to your personal account which you can edit and update.
 
-
-
-
 After a moment of this:
-<img src="Github_Forking_In_Progress.png" width=350>
+
+<img src="images/github_forking_in_progress.png" width="650">
 
 
 You'll be redirected to your new personal copy of the repository:
-<img src="Forked_Github_Page.png" width=700>
+
+<img src="images/forked_github_page.png" width="850">
 
 ## `git clone`
 
 Now that you have your own copy (by forking), we're going to download a copy to your local computer using git clone.
 
-* Copy the url. 
+* Copy the URL. 
     * Mac: Press **cmd+L** to highlight the url bar and **cmd+c** to copy the url
     * Windows: Press **Ctrl+L** to highlight the url bar and **Ctrl+c** to copy the url
 
@@ -101,6 +100,7 @@ Adding changes with the `git add` command is a way to stage any changes and get 
 
 A commit is a permanent moment in time in your git history. A commit creates a new version of your code. To commit, memorize this command. `git commit -am "Your commit message"`. You are using the `git commit` command with the flags `-am`, which tell git to commit all the changes and to include a commit message. You supply the commit message in `""` directly in the command, `"Your commit message".
 
+
 ## `git push`
 
 Pushing is the process of taking your local code and commits and syncing them, or uploading them, to GitHub. You're updating the GitHub remote (remotes are just fancy names for copies of the repository), generally your fork, represented by a remote named `origin`, by pushing your code to the remote. The git command to do this is simply `git push`. When you `git push` from within a git repository, it will take all the commits that you have locally and push them to the online remote.
@@ -127,4 +127,6 @@ Pushing is the process of taking your local code and commits and syncing them, o
 
 ## Summary
 
-In this lesson, we took an introductory look at git and github. First, we saw how to fork and clone repositories from learn ot your local machine. From there, we then further discussed how to add changes to git, commit them, and push them online.
+In this lesson, we took an introductory look at git and github. First, we saw how to fork and clone repositories from Learn ot your local machine. From there, we then further discussed how to add changes to git, commit them, and push them online.
+
+
