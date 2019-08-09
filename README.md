@@ -2,8 +2,7 @@
 # Getting Started with Git
 
 ## Introduction 
-As you now know, git is a version control system. The Learn platform at Flatiron school has a deep integration with Git and GitHub. GitHub is an online hosting platform that uses git. 
-Learn has a deep integration with Git and GitHub. We need to teach you just enough git to interact with GitHub like a real developer. While you can run python notebooks on the Learn platform itself, you'll also want to be able to download material to your local computer so you can work on it there.
+As you now know, git is a version control system. The Learn platform at Flatiron school has a deep integration with Git and GitHub. GitHub is an online hosting platform that uses git. We need to teach you just enough git to interact with GitHub like a real developer. While you can run python notebooks on the Learn platform itself, you'll also want to be able to download material to your local computer so you can work on it there.
 
 ## Objectives
 
