@@ -107,7 +107,7 @@ Pushing is the process of taking your local code and commits and syncing them, o
 
 ## Additional Resources
 
-[GIT Cheatsheet](http://www.git-tower.com/blog/content/posts/54-git-cheat-sheet/git-cheat-sheet-large01.png)
+[GIT Cheatsheet](https://www.git-tower.com/blog/git-cheat-sheet/)
 
 [GIT Best Practices](http://www.git-tower.com/blog/content/posts/54-git-cheat-sheet/git-cheat-sheet-large02.png)
 
