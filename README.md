@@ -109,7 +109,7 @@ Pushing is the process of taking your local code and commits and syncing them, o
 
 [GIT Cheatsheet](https://www.git-tower.com/blog/git-cheat-sheet/)
 
-[GIT Best Practices](http://www.git-tower.com/blog/content/posts/54-git-cheat-sheet/git-cheat-sheet-large02.png)
+[GIT Best Practices](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices)
 
 [Understanding the GitHub Flow](https://guides.github.com/introduction/flow)
 
@@ -126,6 +126,6 @@ Pushing is the process of taking your local code and commits and syncing them, o
 
 ## Summary
 
-In this lesson, we took an introductory look at git and github. First, we saw how to fork and clone repositories from Learn ot your local machine. From there, we then further discussed how to add changes to git, commit them, and push them online.
+In this lesson, we took an introductory look at git and github. First, we saw how to fork and clone repositories from Learn onto your local machine. From there, we then further discussed how to add changes to git, commit them, and push them online.
 
 
