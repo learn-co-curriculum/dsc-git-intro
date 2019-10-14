@@ -8,9 +8,9 @@ As you now know, Git is a version control system. The Learn platform at Flatiron
 
 You will be able to:
 
-* Use git clone to clone a repository
-* Use `git add`, `git commit`, and `git push` to make changes to a repository
 * Describe the difference between a forked and a cloned respository
+* Use `git clone` to clone a repository
+* Use `git add`, `git commit`, and `git push` to make changes to a repository
 * Compare local and remote repositories
 
 
