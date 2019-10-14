@@ -8,12 +8,10 @@ As you now know, Git is a version control system. The Learn platform at Flatiron
 
 You will be able to:
 
-* Fork a repository from GitHub to create your own copy 
-* Use `git clone` to clone a repository to your local computer 
-* Use `git status` to see the status of your locally cloned Git repository 
-* Use `git add .` to add your local changes to be committed 
-* Use `git commit -am "Commit Message"` to commit changes that have been added with a message 
-* Use `git push` to upload your local changes to GitHub 
+* Use git clone to clone a repository
+* Use `git add`, `git commit`, and `git push` to make changes to a repository
+* Describe the difference between a forked and a cloned respository
+* Compare local and remote repositories
 
 
 ## Some terminology and concepts
