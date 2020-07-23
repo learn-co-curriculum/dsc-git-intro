@@ -116,9 +116,10 @@ Pushing is the process of taking your local code and commits and syncing them, o
 
 - [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/) 
 
-- [Git Immersion](http://gitimmersion.com/) 
+- [Git Immersion](http://gitimmersion.com/)  
 
-- [Try Git](http://try.github.com/) 
+- [Try Git](http://try.github.com/)  
+
 - <p data-visibility='hidden'>View <a href='https://learn.co/lessons/enough-git-for-learn-co' title='Enough Git for Learn'>Enough Git for Learn</a> on Learn.co and start learning to code for free</p> 
 
 ## Summary
