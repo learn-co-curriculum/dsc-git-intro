@@ -43,22 +43,26 @@ To start:
 * Return to your web browser and navigate to the lesson you want to download 
 * Click the GitHub icon
 
-<img src="images/learn_github_logo.png">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/learn_github_logo.png
+">
 
 
 You'll be redirected to the associated github repository like this.  
-<img src="images/github_fork_button.png">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/github_fork_button.png
+">
 
 * **Click the fork button**, as shown above in order to create a copy to your personal account which you can edit and update.
 
 After a moment of this:
 
-<img src="images/github_forking_in_progress.png" width="650">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/github_forking_in_progress.png
+" width="650">
 
 
 You'll be redirected to your new personal copy of the repository:
 
-<img src="images/forked_github_page.png" width="850">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/forked_github_page.png
+" width="850">
 
 ## `git clone`
 
