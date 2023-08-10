@@ -8,6 +8,6 @@ on:
 
 jobs:
   Test_remote_action:
-    uses: learn-co-curriculum/dsc-github-actions-files/.github/workflows/branch_split.yml@v1.0.15
+    uses: learn-co-curriculum/dsc-github-actions-files/.github/workflows/branch_split.yml@v1.0.16
     secrets: inherit
    
