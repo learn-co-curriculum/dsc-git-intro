@@ -48,6 +48,7 @@ To start:
 
 
 You'll be redirected to the associated github repository like this.  
+
 <img src="https://curriculum-content.s3.amazonaws.com/data-science/images/github_fork_button.png
 ">
 
@@ -123,7 +124,6 @@ Pushing is the process of taking your local code and commits and syncing them, o
 
 - [Try Git](http://try.github.com/)  
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/enough-git-for-learn-co' title='Enough Git for Learn'>Enough Git for Learn</a> on Learn.co and start learning to code for free</p> 
 
 ## Summary
 
